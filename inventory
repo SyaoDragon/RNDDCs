@@ -23,6 +23,6 @@ dc3rhosp-extservices  ansible_host=10.169.241.131  ansible_user=root
 dc3rhosp-repository   ansible_host=10.169.241.132  ansible_user=root
 
 [nodes]
-rhosp-extservices  ansible_host=10.169.108.133  ansible_user=stack ansible_become=true
+#hosp-extservices  ansible_host=10.169.108.133  ansible_user=stack ansible_become=true
 rhosp-director     ansible_host=10.169.108.132  ansible_user=stack
 #rhosp-repository   ansible_host=10.169.108.131  ansible_user=stack ansible_become=true
